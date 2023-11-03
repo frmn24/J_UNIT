@@ -9,11 +9,7 @@ import org.junit.Test;
 public class SimpleCalculatorTest {
     // Membuat objek SimpleCalculator untuk digunakan dalam pengujian.
     private SimpleCalculator simpleCalculator = new SimpleCalculator();
-
-    /**
-     * Metode uji (test method) untuk menguji penambahan dua bilangan.
-     * Harapannya, penambahan 2 + 2 menghasilkan 4.
-     */
+    
     @Test
     public void twoPlusTwoShouldEqualFour() {
         // Melakukan penambahan 2 + 2 menggunakan SimpleCalculator.add.
